@@ -1,0 +1,10 @@
+Implements a recursive method to print out Pascal's Triangle via pascal's algorithm:
+
+Each number is the sum of the two directly above it. There is also a formula (called the binomial formula) which allows you to calculate any number in the triangle without determining its ancestors. The formula below calculates the value of term k on row n. In our triangle, the first row is row 0, corresponding to raising a binomial to the zeroth power. Likewise, the first term in each row is term zero. Thus, both the rows and the columns of Pascal's Triangle use the zero-based numbering system we frequently employ in computer science.
+
+    T [n, k ] = n ! / (( n - k )! k ! ) 
+
+In this formula, n! means n factorial, given by the definition n! = n(n - 1) ... 1, and 0! = 1. 
+
+
+More on Pascal's Triangle here: https://en.wikipedia.org/wiki/Pascal%27s_triangle
